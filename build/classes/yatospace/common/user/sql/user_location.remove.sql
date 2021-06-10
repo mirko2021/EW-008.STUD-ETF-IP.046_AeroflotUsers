@@ -1,0 +1,2 @@
+DELETE FROM yi_users_locations_ip_aerolines_company 
+WHERE location_id=?

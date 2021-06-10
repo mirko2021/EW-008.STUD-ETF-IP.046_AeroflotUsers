@@ -1,0 +1,1 @@
+UPDATE yi_ip_users_user_accounts_nianses SET nianse_id=?, nianse_type=?, username=? WHERE nianse_id=?

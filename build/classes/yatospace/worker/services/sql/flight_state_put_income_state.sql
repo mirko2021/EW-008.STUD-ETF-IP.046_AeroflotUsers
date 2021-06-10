@@ -1,0 +1,1 @@
+UPDATE yi_ip_flights SET income_state=?  where  fly_id = ?;

@@ -1,0 +1,1 @@
+DELETE FROM yi_traffic_relations WHERE rt_word = ?; 

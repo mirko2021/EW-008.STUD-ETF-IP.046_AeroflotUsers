@@ -1,0 +1,1 @@
+SELECT rt_word FROM yi_traffic_relations ORDER BY rt_word ASC;

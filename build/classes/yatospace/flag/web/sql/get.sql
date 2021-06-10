@@ -1,0 +1,1 @@
+SELECT location_country FROM yi_locations WHERE location_name=?;

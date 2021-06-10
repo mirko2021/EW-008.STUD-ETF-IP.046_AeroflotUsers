@@ -1,0 +1,1 @@
+UPDATE yi_ip_flights SET outcome_state='NEPOZNATO'  where  fly_id = ?;

@@ -1,0 +1,38 @@
+
+@charset "UTF-8";
+
+.error{
+	color:#fff;
+	background-color:#e74c3c;	
+	width: 100%; 
+	height: 100%;
+}
+
+.success{
+	color:#fff;
+	background-color:#2ecc71;	
+	width: 100%; 
+	height: 100%;
+}
+
+.info{
+	color:#fff;
+	background-color:#16a085;	
+	width: 100%; 
+	height: 100%;
+}
+
+.wait{
+	color:#fff;
+	background-color:#9b59b6;	
+	width: 100%; 
+	height: 100%;
+}
+
+
+.warnning{
+	color:#fff;
+	background-color:#f39c12;	
+	width: 100%; 
+	height: 100%;
+}

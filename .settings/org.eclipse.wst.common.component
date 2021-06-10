@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                                                                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <wb-module deploy-name="007_AeroflotUsers">
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-user"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-user-admin"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-basic"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-user-role"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-Users"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-UsersAdmin"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-UsersRole"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-counter"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-Administration"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-adminer"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-countries"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-rt"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-Common"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-RT"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-Workers"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-spring-tomcat-boot"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-SystemUsers"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-email"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-messaging"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-common"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-reservation"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-Reservation"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-reservation-state"/>
+                
+        <wb-resource deploy-path="/" source-path="/WebContent-Flight"/>
+                                                                                                                                                                                                                        
+        
+        
+        
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <property name="java-output-path" value="/010_AeroflotUsers/build/classes"/>
+        <property name="context-root" value="046_AeroflotUsers"/>
+                                                                                                                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </wb-module>
+                                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</project-modules>

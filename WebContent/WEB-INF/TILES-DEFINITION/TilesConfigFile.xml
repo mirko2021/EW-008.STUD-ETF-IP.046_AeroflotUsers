@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="simplePage" template="/WEB-INF/TILES-TEMPLATES/simple-table-design.jsp">
+		<put-attribute name="header_message"  value="/WEB-INF/TILES-PARTS/simple-header-message.jsp" />
+		<put-attribute name="menu_content"    value="/WEB-INF/TILES-PARTS/simple-menu-content.jsp" />
+		<put-attribute name="body_content"    value="/WEB-INF/TILES-PARTS/simple-body-content.jsp" />
+		<put-attribute name="specific_form"   value="/WEB-INF/TILES-PARTS/simple-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/simple-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/simple-page-zone.jsp" />
+		<put-attribute name="footer_message"  value="/WEB-INF/TILES-PARTS/simple-footer-message.jsp" />
+    </definition>
+    <definition name="standardPage" template="/WEB-INF/TILES-TEMPLATES/home-table-design.jsp">
+		<put-attribute name="header_message"  value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content"    value="/WEB-INF/TILES-PARTS/home-menu-content.jsp" />
+		<put-attribute name="body_content"    value="/WEB-INF/TILES-PARTS/home-body-content.jsp" />
+		<put-attribute name="specific_form"   value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/HOME/page-zone.jsp" />
+		<put-attribute name="footer_message"  value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="homePage" template="/WEB-INF/TILES-TEMPLATES/home-table-design.jsp">
+		<put-attribute name="header_message"  value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content"    value="/WEB-INF/TILES-PARTS/home-menu-content.jsp" />
+		<put-attribute name="body_content"    value="/WEB-INF/TILES-PARTS/home-body-content.jsp" />
+		<put-attribute name="specific_form"   value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/home-page-zone.jsp" />
+		<put-attribute name="footer_message"  value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="usersPage" template="/WEB-INF/TILES-TEMPLATES/users-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/user-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/user-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/HOME/page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="loginPage" template="/WEB-INF/TILES-TEMPLATES/login-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/user-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/login-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/HOME/page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="registerPage" template="/WEB-INF/TILES-TEMPLATES/registration-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp"/>
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/user-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/register-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/HOME/page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="logoutPage" template="/WEB-INF/TILES-TEMPLATES/logout-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/logged-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/logout-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/home-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="loggedPage" template="/WEB-INF/TILES-TEMPLATES/logged-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/logged-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/logged-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/home-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="adminPage" template="/WEB-INF/TILES-TEMPLATES/admin-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/home-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="userRolesPage" template="/WEB-INF/TILES-TEMPLATES/user-role-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/user-role-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/user-role-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/home-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="userDataPage" template="/WEB-INF/TILES-TEMPLATES/user-data-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/user-data-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/user-data-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/home-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="adminLocationPage" template="/WEB-INF/TILES-TEMPLATES/admin-location-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-location-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-location-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-location-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+        <definition name="adminWorkersPage" template="/WEB-INF/TILES-TEMPLATES/admin-workers-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-workers-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-workers-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-workers-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+        <definition name="adminUsersPage" template="/WEB-INF/TILES-TEMPLATES/admin-users-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-users-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-users-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-users-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="adminAdministrationsPage" template="/WEB-INF/TILES-TEMPLATES/admin-administrators-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-administrators-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-administrators-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-administrators-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="adminRTPage" template="/WEB-INF/TILES-TEMPLATES/admin-rt-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-rt-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-rt-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-rt-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="workerFlightsPage" template="/WEB-INF/TILES-TEMPLATES/admin-flights-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-flights-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-flights-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-flights-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="workerMessagesPage" template="/WEB-INF/TILES-TEMPLATES/admin-messages-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-messages-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-messages-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-messages-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="workerReservationsPage" template="/WEB-INF/TILES-TEMPLATES/admin-reservations-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-reservations-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-reservations-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-reservations-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="userCommunicationPage" template="/WEB-INF/TILES-TEMPLATES/user-communication-td.jsp">
+		<put-attribute name="header_message"  value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content"    value="/WEB-INF/TILES-PARTS/user-communication-menu.jsp" />
+		<put-attribute name="body_content"    value="/WEB-INF/TILES-PARTS/user-communication-content.jsp" />
+		<put-attribute name="specific_form"   value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/user-communication-page-zone.jsp" />
+		<put-attribute name="footer_message"  value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="userLocationPage" template="/WEB-INF/TILES-TEMPLATES/user-location-td.jsp">
+		<put-attribute name="header_message"  value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content"    value="/WEB-INF/TILES-PARTS/user-location-menu.jsp" />
+		<put-attribute name="body_content"    value="/WEB-INF/TILES-PARTS/user-location-content.jsp" />
+		<put-attribute name="specific_form"   value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/user-location-page-zone.jsp" />
+		<put-attribute name="footer_message"  value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="userReservationPage" template="/WEB-INF/TILES-TEMPLATES/user-reservation-td.jsp">
+		<put-attribute name="header_message"  value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content"    value="/WEB-INF/TILES-PARTS/user-reservation-menu.jsp" />
+		<put-attribute name="body_content"    value="/WEB-INF/TILES-PARTS/user-reservation-content.jsp" />
+		<put-attribute name="specific_form"   value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/user-reservation-page-zone.jsp" />
+		<put-attribute name="footer_message"  value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="userApplicationPage" template="/WEB-INF/TILES-TEMPLATES/user-application-td.jsp">
+		<put-attribute name="header_message"  value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content"    value="/WEB-INF/TILES-PARTS/user-application-menu.jsp" />
+		<put-attribute name="body_content"    value="/WEB-INF/TILES-PARTS/user-application-content.jsp" />
+		<put-attribute name="specific_form"   value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/user-application-page-zone.jsp" />
+		<put-attribute name="footer_message"  value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="adminMSGPage" template="/WEB-INF/TILES-TEMPLATES/admin-msg-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/admin-msg-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/admin-msg-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/admin-msg-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+        <definition name="todayIncomePage" template="/WEB-INF/TILES-TEMPLATES/today-income-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/today-income-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/today-income-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/today-income-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+        <definition name="todayOutcomePage" template="/WEB-INF/TILES-TEMPLATES/today-outcome-td.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/today-outcome-menu.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/today-outcome-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="page_zone"       value="/WEB-INF/TILES-PARTS/today-outcome-page-zone.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+</tiles-definitions>

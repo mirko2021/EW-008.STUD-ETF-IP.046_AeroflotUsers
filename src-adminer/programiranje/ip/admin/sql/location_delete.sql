@@ -1,0 +1,1 @@
+DELETE FROM yi_locations WHERE location_name = ?

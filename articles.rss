@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+	<title>RSS test info</title>
+	<link>https://www.etf.unibl.org</link>
+	<description>RSS test info</description>
+	<language>en</language>
+	<copyright>Copyright hold by IP2017</copyright>
+	<pubdate>Thu, 10 Jun 2021 15:58:29 +0200</pubdate>
+<item>
+	<title>RSSFeed</title>
+	<description>This is a description</description>
+	<link>https://etf.unibl.org/index.php/sr-RS/novosti/584-ii-2017-20</link>
+	<author>IP ETFBL</author>
+	<guid>https://etf.unibl.org/index.php/sr-RS/novosti/584-ii-2017-20</guid>
+
+</item>
+
+</channel>
+</rss>

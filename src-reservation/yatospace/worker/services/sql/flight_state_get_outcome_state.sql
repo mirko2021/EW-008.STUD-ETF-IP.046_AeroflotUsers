@@ -1,0 +1,1 @@
+SELECT fly_id, income_state, outcome_state FROM yi_ip_flights WHERE fly_id = ?;

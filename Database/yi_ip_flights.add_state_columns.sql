@@ -1,0 +1,3 @@
+USE yatospace_db; 
+ALTER TABLE yi_ip_flights ADD COLUMN outcome_state SET('POLETEO', 'CEKA SE', 'NEPOZNATO') DEFAULT 'NEPOZNATO'; 
+ALTER TABLE yi_ip_flights ADD COLUMN income_state SET('SLETEO', 'CEKA SE', 'NEPOZNATO') DEFAULT 'NEPOZNATO'; 
